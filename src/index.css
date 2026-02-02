@@ -133,3 +133,23 @@
     @apply max-w-6xl mx-auto;
   }
 }
+
+@keyframes partners-marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-partners-marquee {
+  animation: partners-marquee 12s linear infinite;
+  will-change: transform;
+}
+
+@media (min-width: 768px) {
+  .animate-partners-marquee {
+    animation-duration: 28s;
+  }
+}

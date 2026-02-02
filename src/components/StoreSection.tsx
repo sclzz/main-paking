@@ -157,7 +157,7 @@ const StoreSection = () => {
           <div className="text-gold text-xs tracking-[0.25em] uppercase">
             Our Locations
           </div>
-          <h2 className="mt-3 font-display text-4xl md:text-5xl">
+          <h2 className="mt-3 font-display text-4xl md:text-5xl font-semibold text-foreground">
             Our Store
           </h2>
           <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
@@ -180,16 +180,18 @@ const StoreSection = () => {
             {/* Embla container */}
             <div className="flex">
               {STORES.map((s) => (
-                <div key={s.name} className="min-w-full px-1">
+                <div key={s.name} className="min-w-full px-4 md:px-1">
                   <div className="grid items-center gap-4 md:gap-6 md:grid-cols-2">
                     {/* Image */}
-                    <div className="overflow-hidden rounded-2xl border border-border/50 ml-2 md:ml-4 max-w-[560px] md:justify-self-end">
-                      <img
-                        src={s.image}
-                        alt={s.name}
-                        className="h-[280px] w-full object-cover md:h-[340px]"
-                        loading="lazy"
-                      />
+                    <div className="w-full overflow-hidden rounded-2xl border border-border/50 bg-muted/10 ml-0 md:ml-4 max-w-[560px] md:justify-self-end">
+                      <div className="relative w-full h-[280px] md:h-[340px]">
+                        <img
+                          src={s.image}
+                          alt={s.name}
+                          className="absolute inset-0 h-full w-full object-cover"
+                          loading="lazy"
+                        />
+                      </div>
                     </div>
 
                     {/* Content */}
@@ -231,40 +233,40 @@ const StoreSection = () => {
          type="button"
          aria-label="Previous"
          onClick={scrollPrev}
-          className="absolute left-0 md:-left-6 top-1/2 -translate-y-1/2
+          className="hidden md:block absolute left-0 md:-left-6 top-1/2 -translate-y-1/2
              text-black/60 hover:text-black transition"
-      >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-10 w-10"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        strokeWidth={2}
-      >
-    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-  </svg>
-</button>
+          >
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+              className="h-10 w-10"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+          strokeWidth={2}
+          >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+          </button>
 
-{/* Next Button */}
-<button
-  type="button"
-  aria-label="Next"
-  onClick={scrollNext}
-  className="absolute right-0 md:-right-6 top-1/2 -translate-y-1/2
-             text-black/60 hover:text-black transition"
->
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className="h-10 w-10"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-    strokeWidth={2}
-  >
-    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-  </svg>
-</button>
+          {/* Next Button */}
+          <button
+          type="button"
+          aria-label="Next"
+          onClick={scrollNext}
+          className="hidden md:block absolute right-0 md:-right-6 top-1/2 -translate-y-1/2
+          text-black/60 hover:text-black transition"
+          >
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+              className="h-10 w-10"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+          strokeWidth={2}
+          >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+          </button>
 
           {/* Indicator: dots + progress bar */}
           <div className="mt-6 flex items-center justify-center gap-3">
