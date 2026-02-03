@@ -160,7 +160,7 @@ const StoreSection = () => {
           <h2 className="mt-3 font-display text-4xl md:text-5xl font-semibold text-foreground">
             Our Store
           </h2>
-          <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
+          <p className="mt-4 px-4 sm:px-0 text-muted-foreground max-w-2xl mx-auto">
             Pilih lokasi terdekat untuk pemesanan, bulk order, dan kerja sama B2B.
           </p>
         </div>
@@ -293,6 +293,54 @@ const StoreSection = () => {
             })}
           </div>
         </div>
+
+        {/* Online Orders */}
+        <div className="mt-12 pt-10">
+          <div className="text-center">
+            <div className="text-gold text-xs tracking-[0.25em] uppercase">
+              Online Orders
+            </div>
+            <h3 className="mt-3 font-display text-2xl md:text-3xl font-semibold text-foreground">
+              Also available on
+            </h3>
+            <p className="mt-3 px-4 sm:px-0 text-muted-foreground max-w-2xl mx-auto">
+              Pesan cepat lewat platform online favorit Anda.
+            </p>
+          </div>
+
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-4 px-4 sm:px-0">
+            {[
+              { name: "Tokopedia", img: "/tokopedia.jpg", href: "#" },
+              { name: "Shopee", img: "/shopee.jpg", href: "#" },
+              { name: "TikTok Shop", img: "/tiktokshop.jpg", href: "#" },
+              { name: "GoFood", img: "/gofood.jpg", href: "#" },
+              { name: "GrabFood", img: "/grabfood.jpg", href: "#" },
+              { name: "ShopeeFood", img: "/shopeefood.jpg", href: "#" },
+            ].map((p) => (
+              <a
+                key={p.name}
+                href={p.href}
+                target="_blank"
+                rel="noreferrer"
+                className="group flex items-center justify-center rounded-2xl border border-border/50 bg-white px-5 py-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+                aria-label={p.name}
+                title={p.name}
+              >
+                <img
+                  src={p.img}
+                  alt={p.name}
+                  className={`w-auto opacity-90 transition group-hover:opacity-100 ${
+                    p.name === "GrabFood" || p.name === "TikTok Shop" ? "h-9" : "h-8"
+                  }`}
+                  loading="lazy"
+                />
+              </a>
+            ))}
+          </div>
+        </div>
+
+        {/* Divider below Online Orders */}
+        <div className="mt-12 border-t border-border/40" />
       </div>
     </section>
   );

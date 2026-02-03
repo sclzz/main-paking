@@ -24,6 +24,61 @@ Bekasi City, West Java 17415</p>
               <Mail className="h-5 w-5 text-gold group-hover:scale-110 transition-transform" />
               <span className="text-sm font-medium">vandrajaya.pakingduck@gmail.com</span>
             </a>
+
+            {/* Social Media */}
+            <div className="flex items-center gap-4 mt-3 sm:mt-0 sm:ml-2">
+              <a
+                href="https://instagram.com/USERNAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-70 hover:opacity-100 transition"
+              >
+                <img
+                  src="/instagram.jpg"
+                  alt="Instagram"
+                  className="w-5 h-5 transition-all duration-300 ease-out hover:scale-110 hover:drop-shadow-[0_0_6px_#C9A24D]"
+                />
+              </a>
+
+              <a
+                href="https://tiktok.com/@USERNAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-70 hover:opacity-100 transition"
+              >
+                <img
+                  src="/tiktok.jpg"
+                  alt="TikTok"
+                  className="w-5 h-5 transition-all duration-300 ease-out hover:scale-110 hover:drop-shadow-[0_0_6px_#C9A24D]"
+                />
+              </a>
+              
+              <a
+                href="https://twitter.com/USERNAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-70 hover:opacity-100 transition"
+              >
+                <img
+                  src="/twitter.jpg"
+                  alt="Twitter (X)"
+                  className="w-5 h-5 transition-all duration-300 ease-out hover:scale-110 hover:drop-shadow-[0_0_6px_#C9A24D]"
+                />
+              </a>
+
+              <a
+                href="https://linkedin.com/company/USERNAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-70 hover:opacity-100 transition"
+              >
+                <img
+                  src="/linkedin.jpg"
+                  alt="LinkedIn"
+                  className="w-5 h-5 transition-all duration-300 ease-out hover:scale-110 hover:drop-shadow-[0_0_6px_#C9A24D]"
+                />
+              </a>
+            </div>
           </div>
         </div>
 
