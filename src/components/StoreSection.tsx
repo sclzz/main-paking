@@ -322,17 +322,27 @@ const StoreSection = () => {
                 href={p.href}
                 target="_blank"
                 rel="noreferrer"
-                className="group flex items-center justify-center rounded-2xl border border-border/50 bg-white px-5 py-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
                 aria-label={p.name}
                 title={p.name}
+                className="group flex h-[68px] w-[68px] sm:h-[84px] sm:w-[140px] items-center justify-center rounded-xl sm:rounded-2xl border border-border/50 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
               >
                 <img
                   src={p.img}
                   alt={p.name}
-                  className={`w-auto opacity-90 transition group-hover:opacity-100 ${
-                    p.name === "GrabFood" || p.name === "TikTok Shop" ? "h-9" : "h-8"
-                  }`}
                   loading="lazy"
+                  className={`object-contain opacity-90 transition group-hover:opacity-100
+                    ${p.name === "GrabFood"
+                    ? "h-9 w-11 sm:h-10 sm:w-28"
+                    : p.name === "TikTok Shop"
+                    ? "h-10 w-10 sm:h-11 sm:w-28"
+                    : p.name === "GoFood"
+                    ? "h-8 w-10 sm:h-9 sm:w-28"
+                    : p.name === "ShopeeFood"
+                    ? "h-8 w-10 sm:h-9 sm:w-28"
+                    : p.name === "Tokopedia"
+                    ? "h-8 w-8 sm:h-10 sm:w-24"
+                    : "h-8 w-8 sm:h-10 sm:w-24"}
+                  `}
                 />
               </a>
             ))}
