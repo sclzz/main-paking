@@ -60,7 +60,7 @@ const Navbar = () => {
       const diff = top - startY;
 
       // Slower on mobile for a nicer feel
-      const duration = isMobile ? 1300 : 900;
+      const duration = isMobile ? 1600 : 900;
 
       const easeInOutCubic = (t: number) =>
         t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
