@@ -1,6 +1,6 @@
 # PA KING – Premium Duck Food & Catering Supply
 
-PA KING adalah website company profile untuk bisnis makanan bebek premium yang melayani kebutuhan **B2B, catering, dan bulk order**.  
+PA KING adalah website company profile untuk bisnis makanan bebek premium yang melayani kebutuhan **catering, dan bulk order**.  
 Website ini menampilkan menu unggulan, lokasi toko (Our Store), mitra kolaborasi, serta kontak pemesanan via WhatsApp.
 
 ---
@@ -24,7 +24,3 @@ Website ini menampilkan menu unggulan, lokasi toko (Our Store), mitra kolaborasi
 - **Tailwind CSS**
 - **Embla Carousel**
 - **Bun** (package manager & dev server)
-
----
-
-## 📂 Project Structure

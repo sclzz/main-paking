@@ -1,19 +1,16 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 const navLinks = [{
-  href: "#menu",
+  href: "/#menu",
   label: "Menu"
 }, {
-  href: "#store",
+  href: "/#store",
   label: "Our Store"
 }, {
-  href: "#partners",
-  label: "Partners"
+  href: "/#about",
+  label: "About Us"
 }, {
-  href: "#about",
-  label: "About"
-}, {
-  href: "#contact",
+  href: "/#contact",
   label: "Contact Us"
 }];
 const Navbar = () => {
@@ -31,9 +28,17 @@ const Navbar = () => {
   };
 
   const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    const isHome = window.location.pathname === "/";
+
+    // If not on homepage → force navigation to the homepage section
+    if (!isHome) {
+      window.location.href = href;
+      return;
+    }
+
     e.preventDefault();
 
-    const id = href.replace("#", "");
+    const id = href.replace("/#", "").replace("#", "");
     const target = document.getElementById(id);
     if (!target) return;
 
@@ -91,7 +96,7 @@ const Navbar = () => {
       <div className="container-narrow">
         <div className="flex items-center justify-between h-16 md:h-20 px-4">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-1 md:gap-1.5">
+          <a href="/" className="flex items-center gap-1 md:gap-1.5">
           <img
          src="/Logo.jpg"
          alt="PA KING Logo"

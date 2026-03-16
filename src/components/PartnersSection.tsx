@@ -60,7 +60,7 @@ const PartnersSection = () => {
   }, []);
 
   return (
-    <section id="partners" className="section-padding bg-background">
+    <section id="partners" className="hidden section-padding bg-background">
       <div className="container-narrow">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -71,7 +71,7 @@ const PartnersSection = () => {
             Our Partners
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-           Kami memasok produk makanan berbahan dasar bebek premium untuk bisnis katering di seluruh wilayah. Mitra kami menangani layanan katering sementara kami memastikan pasokan yang konsisten dan berkualitas tinggi untuk kolaborasi jangka panjang.
+            Kami memasok produk makanan berbahan dasar bebek premium untuk bisnis katering di seluruh wilayah. Mitra kami menangani layanan katering sementara kami memastikan pasokan yang konsisten dan berkualitas tinggi untuk kolaborasi jangka panjang.
           </p>
         </div>
 

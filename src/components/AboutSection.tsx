@@ -11,6 +11,16 @@ const AboutSection = () => {
           {/* About Text */}
           <p className="text-white/80 text-lg md:text-xl leading-relaxed">PA KING adalah perusahaan makanan yang berfokus pada produk olahan bebek premium untuk kebutuhan katering dan pembeli B2B. Kami menerapkan pengawasan kualitas yang ketat, standar kebersihan yang tinggi, serta proses produksi yang konsisten untuk memastikan setiap produk memenuhi standar mutu yang kami tetapkan. Dengan sistem pasokan yang terjaga dan komitmen terhadap keandalan layanan, PA KING hadir sebagai mitra tepercaya bagi bisnis katering dan pelaku usaha kuliner di berbagai wilayah</p>
 
+          {/* More About Us Button */}
+          <div className="mt-8">
+            <a
+              href="/about"
+              className="inline-block px-8 py-3 border border-gold text-gold font-medium rounded-lg hover:bg-gold hover:text-black transition-all duration-300"
+            >
+              More About PA KING
+            </a>
+          </div>
+
           {/* Decorative gold line */}
           <div className="mt-10 flex items-center justify-center gap-4">
             <div className="w-12 h-px bg-gold/40" />
