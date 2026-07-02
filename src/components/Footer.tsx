@@ -20,9 +20,9 @@ Bekasi City, West Java 17415</p>
             
             <div className="hidden sm:block w-px h-4 bg-gold/30" />
             
-            <a href="mailto:hello@bebekpaking.com" className="flex items-center gap-2 text-white/80 hover:text-gold transition-colors group">
+            <a href="mailto:support@bebekpaking.biz.id" className="flex items-center gap-2 text-white/80 hover:text-gold transition-colors group">
               <Mail className="h-5 w-5 text-gold group-hover:scale-110 transition-transform" />
-              <span className="text-sm font-medium">vandrajaya.pakingduck@gmail.com</span>
+              <span className="text-sm font-medium">support@bebekpaking.biz.id</span>
             </a>
 
             {/* Social Media */}

@@ -313,9 +313,11 @@ const StoreSection = () => {
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4 px-4 sm:px-0">
             {[
+              /*
               { name: "Tokopedia", img: "/tokopedia.jpg", href: "#" },
               { name: "Shopee", img: "/shopee.jpg", href: "#" },
               { name: "TikTok Shop", img: "/tiktokshop.jpg", href: "#" },
+              */
               { name: "GoFood", img: "/gofood.jpg", href: "#" },
               { name: "GrabFood", img: "/grabfood.jpg", href: "#" },
               { name: "ShopeeFood", img: "/shopeefood.jpg", href: "#" },

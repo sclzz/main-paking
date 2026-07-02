@@ -42,7 +42,11 @@ const Navbar = () => {
     requestAnimationFrame(() => {
       const navHeight = document.querySelector("nav")?.clientHeight ?? 80;
       const isMobile = window.matchMedia("(max-width: 768px)").matches;
-      const extraOffset = isMobile ? 12 : 12;
+      const extraOffset = isMobile
+        ? id === "about"
+          ? -20
+          : 12
+        : 12;
       const y = target.getBoundingClientRect().top + window.scrollY - navHeight - extraOffset;
       const top = Math.max(0, y);
       const startY = window.scrollY;
