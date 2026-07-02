@@ -318,9 +318,9 @@ const StoreSection = () => {
               { name: "Shopee", img: "/shopee.jpg", href: "#" },
               { name: "TikTok Shop", img: "/tiktokshop.jpg", href: "#" },
               */
-              { name: "GoFood", img: "/gofood.jpg", href: "#" },
-              { name: "GrabFood", img: "/grabfood.jpg", href: "#" },
-              { name: "ShopeeFood", img: "/shopeefood.jpg", href: "#" },
+              { name: "GoFood", img: "/gofood.jpg", href: "https://gofood.link/a/FrRy98S" },
+              { name: "GrabFood", img: "/grabfood.jpg", href: "https://r.grab.com/g/6-20260702_180918_B9FD49118BED4C88B593AD3FC27E3648_MEXMPS-6-C7JKVYBBLBWXLA" },
+              { name: "ShopeeFood", img: "/shopeefood.jpg", href: "https://spf.shopee.co.id/2g9EeOuphM" },
             ].map((p) => (
               <a
                 key={p.name}
