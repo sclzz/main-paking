@@ -295,7 +295,10 @@ const StoreSection = () => {
         </div>
 
         {/* Online Orders */}
-        <div className="mt-12 pt-10">
+        <div
+          id="order-platforms"
+          className="mt-12 pt-10 scroll-mt-24"
+        >
           <div className="text-center">
             <div className="text-gold text-xs tracking-[0.25em] uppercase">
               Online Orders
