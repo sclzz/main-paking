@@ -33,7 +33,7 @@ const AboutPage = () => {
       <Navbar />
 
       {/* HERO ABOUT */}
-      <section className="bg-gradient-to-b from-[#111111] to-[#0b0b0b] text-white py-24">
+      <section className="bg-[#131313] text-white py-24">        
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">About PA KING</h1>
           <p className="text-lg leading-relaxed text-gray-300">
