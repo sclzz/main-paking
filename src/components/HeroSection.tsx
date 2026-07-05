@@ -14,7 +14,7 @@ const handleWhatsAppClick = () => {
         <div className="mb-6 animate-fade-in" style={{
         animationDelay: "0.1s"
       }}>
-          <h1 className="font-display text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-semibold text-cream tracking-tight">PA KING</h1>
+          <h1 className="font-display text-7xl sm:text-7xl md:text-8xl lg:text-9xl font-semibold text-cream tracking-tight">PA KING</h1>
         </div>
 
         {/* Tagline */}
