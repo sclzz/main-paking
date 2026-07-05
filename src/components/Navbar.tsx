@@ -45,8 +45,12 @@ const Navbar = () => {
       const extraOffset = isMobile
         ? id === "about"
           ? -20
-          : 12
-        : 12;
+          : id === "store"
+            ? -45
+            : 12
+        : id === "store"
+            ? -30
+            : 12;
       const y = target.getBoundingClientRect().top + window.scrollY - navHeight - extraOffset;
       const top = Math.max(0, y);
       const startY = window.scrollY;
