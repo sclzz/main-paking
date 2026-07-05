@@ -4,24 +4,24 @@ const HeroSection = () => {
 const handleWhatsAppClick = () => {
     window.open("https://wa.me/628121333654", "_blank");
   };
-  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#141414] pt-24 pb-12">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#141414] pt-16 md:pt-24 pb-12">
       {/* Subtle gold accent decorations */}
       <div className="absolute top-20 right-10 w-64 h-64 bg-gold/5 rounded-full blur-3xl" />
       <div className="absolute bottom-20 left-10 w-48 h-48 bg-gold/5 rounded-full blur-3xl" />
       
-      <div className="relative z-10 container-narrow text-center px-4 -mt-12">
+      <div className="relative z-10 container-narrow text-center px-4 md:-mt-12">
         {/* Logo Text */}
         <div className="mb-6 animate-fade-in" style={{
         animationDelay: "0.1s"
       }}>
-          <h1 className="font-display text-6xl md:text-8xl lg:text-9xl font-semibold text-cream tracking-tight">PA KING</h1>
+          <h1 className="font-display text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-semibold text-cream tracking-tight">PA KING</h1>
         </div>
 
         {/* Tagline */}
         <div className="mb-8 animate-fade-in" style={{
         animationDelay: "0.3s"
       }}>
-          <p className="text-gold font-medium text-xl md:text-2xl tracking-[0.25em] uppercase">
+          <p className="text-gold font-medium text-lg sm:text-xl md:text-2xl tracking-[0.2em] md:tracking-[0.25em] uppercase">
             PREMIUM DUCK TASTE, EVERYDAY PRICE
           </p>
         </div>
@@ -30,33 +30,33 @@ const handleWhatsAppClick = () => {
         <div className="mb-10 max-w-4xl mx-auto animate-fade-in" style={{
         animationDelay: "0.5s"
       }}>
-          <p className="text-cream/75 text-xl md:text-2xl leading-10">
+          <p className="text-cream/75 text-lg sm:text-xl md:text-2xl leading-8 md:leading-10">
             Bebek dan Chinese food dengan rasa autentik, diracik dari resep istimewa dengan bahan pilihan dan diproses secara higienis, menghadirkan kelezatan yang menggugah selera di setiap suapan.
           </p>
         </div>
 
         {/* Statistics */}
         <div
-          className="mt-8 grid grid-cols-3 gap-8 max-w-xl mx-auto animate-fade-in"
+          className="mt-8 grid grid-cols-3 gap-4 md:gap-8 max-w-xl mx-auto animate-fade-in"
           style={{ animationDelay: "0.8s" }}
         >
           <div className="text-center">
-            <h3 className="text-3xl font-display font-semibold text-gold">100%</h3>
-            <p className="mt-1 text-sm uppercase tracking-widest text-cream/70">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-display font-semibold text-gold">100%</h3>
+            <p className="mt-1 text-[11px] sm:text-sm uppercase tracking-[0.12em] sm:tracking-widest text-cream/70">
               Fresh Daily
             </p>
           </div>
 
           <div className="text-center">
-            <h3 className="text-3xl font-display font-semibold text-gold">100%</h3>
-            <p className="mt-1 text-sm uppercase tracking-widest text-cream/70">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-display font-semibold text-gold">100%</h3>
+            <p className="mt-1 text-[11px] sm:text-sm uppercase tracking-[0.12em] sm:tracking-widest text-cream/70">
               Halal
             </p>
           </div>
 
           <div className="text-center">
-            <h3 className="text-3xl font-display font-semibold text-gold">100%</h3>
-            <p className="mt-1 text-sm uppercase tracking-widest text-cream/70">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-display font-semibold text-gold">100%</h3>
+            <p className="mt-1 text-[11px] sm:text-sm uppercase tracking-[0.12em] sm:tracking-widest text-cream/70">
               Authentic Taste
             </p>
           </div>
