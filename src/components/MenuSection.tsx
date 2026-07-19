@@ -52,7 +52,7 @@ const MenuSection = () => {
             Our Menu
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Hidangan bebek premium yang dibuat khusus untuk katering dan pesanan dalam jumlah besar. Sempurna untuk acara-acara, pertemuan perusahaan, dan bisnis katering.
+            Hidangan bebek premium. Sempurna untuk acara keluarga, pertemuan perusahaan, dan berbagai acara spesial.
           </p>
         </div>
 
