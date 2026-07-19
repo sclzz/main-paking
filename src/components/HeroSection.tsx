@@ -31,7 +31,7 @@ const handleWhatsAppClick = () => {
         animationDelay: "0.5s"
       }}>
           <p className="text-cream/75 text-lg sm:text-xl md:text-2xl leading-8 md:leading-10">
-            Bebek dan Chinese food dengan rasa autentik, diracik dari resep istimewa dengan bahan pilihan dan diproses secara higienis, menghadirkan kelezatan yang menggugah selera di setiap suapan.
+            Spesialis Bebek Peking rasa autentik, diracik dari resep istimewa dengan bahan pilihan dan diproses dalam satu hari agar menghasilkan rasa autentik, menghadirkan kelezatan yang menggugah selera di setiap suapan.
           </p>
         </div>
 
