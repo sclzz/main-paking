@@ -52,7 +52,7 @@ const MenuSection = () => {
             Our Menu
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Hidangan bebek premium. Sempurna untuk acara keluarga, pertemuan perusahaan, dan berbagai acara spesial.
+            Bebek Peking dengan cita rasa autentik, cocok untuk acara keluarga, pertemuan perusahaan, dan berbagai acara spesial
           </p>
         </div>
 

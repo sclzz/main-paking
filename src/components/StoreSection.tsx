@@ -12,28 +12,28 @@ type Store = {
 
 const STORES: Store[] = [
   {
-    name: "Store Condet",
+    name: "Store Comming Soon",
     image: "/store-condet.jpg",
-    desc: "Layanan pemesanan bebek premium & supply untuk mitra katering di area Jakarta Timur dan sekitarnya.",
-    location: "Condet, Jakarta Timur",
-    hours: "Mon–Sat, 09:00–18:00",
-    waLink: "https://wa.me/62XXXXXXXXXXX",
+    desc: "Store Comming Soon.",
+    location: "Store Comming Soon",
+    hours: "Store Comming Soon",
+    waLink: "https://linktr.ee/bebekpaking",
   },
   {
-    name: "Store Bekasi",
+    name: "Store Hankam Kitchen",
     image: "/store-bekasi.jpg",
-    desc: "Pusat pemesanan & pasokan untuk kebutuhan B2B, bulk order, dan event catering di Bekasi.",
-    location: "Jatiwarna, Pondok Melati, Bekasi City, West Java 17415",
-    hours: "Mon–Sat, 09:00–18:00",
-    waLink: "https://wa.me/62XXXXXXXXXXX",
+    desc: "Cabang Hankam, take away hidangan bebek peking untuk makanan sehari-hari, bulk order, dan acara anda di area Bekasi.",
+    location: "RT.004/RW.009, Jatiwarna, Pondok Melati, Bekasi, West Java 17415",
+    hours: "Thursday–Saturday, 09:00–20:00",
+    waLink: "https://linktr.ee/bebekpaking",
   },
   {
-    name: "Store Jakarta",
+    name: "Store Comming Soon",
     image: "/store-jakarta.jpg",
-    desc: "Distribusi dan kolaborasi katering untuk area Jakarta dan sekitarnya, dengan pasokan yang konsisten.",
-    location: "Jakarta (Area Coverage)",
-    hours: "Mon–Sat, 09:00–18:00",
-    waLink: "https://wa.me/62XXXXXXXXXXX",
+    desc: "Store Comming Soon.",
+    location: "Store Comming Soon",
+    hours: "Store Comming Soon",
+    waLink: "https://linktr.ee/bebekpaking",
   },
 ];
 
@@ -219,7 +219,7 @@ const StoreSection = () => {
                         href={s.waLink}
                         className="mt-8 inline-flex items-center justify-center rounded-full bg-red-700 px-6 py-3 text-sm font-medium text-white transition hover:bg-red-800"
                       >
-                        Contact us via WhatsApp
+                        Contact us
                       </a>
                     </div>
                   </div>

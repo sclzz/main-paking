@@ -9,7 +9,7 @@ const AboutSection = () => {
           <h2 className="font-display text-4xl md:text-5xl font-semibold mt-3 mb-8 text-white">About PA KING</h2>
 
           {/* About Text */}
-          <p className="text-white/80 text-lg md:text-xl leading-relaxed">PA KING adalah perusahaan makanan yang berfokus pada produk olahan bebek premium untuk kebutuhan bulk order dan berbagai kebutuhan acara, seperti katering, pertemuan perusahaan, maupun acara keluarga. Kami menerapkan pengawasan kualitas yang ketat, standar kebersihan yang tinggi, serta proses produksi yang konsisten untuk memastikan setiap produk memenuhi standar mutu yang kami tetapkan. Dengan sistem pasokan yang terjaga dan komitmen terhadap keandalan layanan, kami siap menjadi mitra terpercaya dalam menyediakan hidangan bebek premium berkualitas.</p>
+          <p className="text-white/80 text-lg md:text-xl leading-relaxed">PA KING adalah perusahaan makanan yang berfokus pada produk olahan bebek premium sejak 2006, melayani kebutuhan bulk order dan berbagai acara  mulai dari katering, pertemuan perusahaan, hingga acara keluarga. Setiap bebek kami bumbui selama satu hari penuh dengan resep istimewa turun-temurun, didukung pengawasan kualitas ketat, standar kebersihan tinggi, dan sistem pasokan yang terjaga di setiap tahap produksi. Dengan pengalaman puluhan tahun dan dedikasi menjaga cita rasa autentik di setiap hidangan, PA KING hadir untuk menemani momen spesial anda dari acara keluarga hingga kebutuhan acara dalam skala besar.</p>
 
           {/* More About Us Button */}
           <div className="mt-8">

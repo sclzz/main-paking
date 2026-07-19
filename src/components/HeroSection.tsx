@@ -22,7 +22,7 @@ const handleWhatsAppClick = () => {
         animationDelay: "0.3s"
       }}>
           <p className="text-gold font-medium text-lg sm:text-xl md:text-2xl tracking-[0.2em] md:tracking-[0.25em] uppercase">
-            PREMIUM DUCK TASTE, EVERYDAY PRICE
+            "PREMIUM DUCK TASTE, EVERYDAY PRICE"
           </p>
         </div>
 
@@ -31,7 +31,7 @@ const handleWhatsAppClick = () => {
         animationDelay: "0.5s"
       }}>
           <p className="text-cream/75 text-lg sm:text-xl md:text-2xl leading-8 md:leading-10">
-            Spesialis Bebek Peking rasa autentik, diracik dari resep istimewa dengan bahan pilihan dan diproses dalam satu hari agar menghasilkan rasa autentik, menghadirkan kelezatan yang menggugah selera di setiap suapan.
+            Spesialis Bebek Peking sejak 2006, diracik dari resep istimewa dengan bahan pilihan dan dibumbui selama satu hari penuh untuk menghasilkan rasa yang autentik, menghadirkan kelezatan menggugah selera di setiap suapan.
           </p>
         </div>
 
