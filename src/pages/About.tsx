@@ -50,8 +50,8 @@ const AboutPage = () => {
       <main className="max-w-6xl mx-auto px-6 py-20 space-y-24 text-black">
 
         {/* OUR STORY */}
-        <section className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
+        <section className="grid md:grid-cols-3 gap-12">
+          <div className="md:col-span-2">
             <h2 className="text-3xl font-semibold mb-4">Our Story</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               Tahun 2006 menjadi titik awal perjalanan panjang PA KING. Berawal dari keyakinan sederhana namun kuat bahwa hidangan bebek peking khas Asia layak dihadirkan dengan standar kualitas yang tidak pernah dikompromikan PA KING memulai langkahnya sebagai pemasok bebek peking untuk kebutuhan B2B catering. Di masa-masa awal inilah fondasi PA KING benar-benar diuji dan dibentuk.
@@ -69,14 +69,14 @@ const AboutPage = () => {
           </div>
 
         {/* OUR commitment */}
-          <div className="bg-gray-100 rounded-xl p-8">
+          <div className="bg-gray-100 rounded-xl p-8 h-full flex flex-col justify-center">
             <h3 className="text-xl font-semibold mb-4">Our Commitment</h3>
             <p className="text-gray-700 leading-relaxed">
               Kami berkomitmen menjaga kualitas produk melalui proses produksi yang terstandarisasi, pemilihan bahan baku premium, serta pengawasan kualitas yang ketat untuk memastikan setiap produk memenuhi standar terbaik.
             </p>
             <br/>
             <p className="text-gray-700 leading-relaxed">
-              Komitmen ini tidak berubah sejak PA KING pertama kali melayani mitra B2B supplier, bahkan kini saat menjangkau lebih banyak pelanggan melalui jalur dagang dan online, standar yang sama tetap kami pegang teguh di setiap tahap produksi.
+              Komitmen ini tidak berubah sejak PA KING pertama kali melayani mitra B2B supplier bahkan kini, saat menjangkau lebih banyak pelanggan melalui jalur dagang dan online, standar yang sama tetap kami pegang teguh di setiap tahap produksi.
             </p>
           </div>
         </section>
