@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ShieldCheck, Flame, Award } from "lucide-react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -53,29 +54,29 @@ const AboutPage = () => {
           <div>
             <h2 className="text-3xl font-semibold mb-4">Our Story</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              PA KING lahir dari ketertarikan terhadap hidangan bebek khas
-              Asia yang memiliki karakter rasa yang kuat dan teknik
-              pengolahan yang khas. Kami percaya bahwa kualitas bahan baku,
-              teknik memasak yang tepat, serta standar kebersihan yang tinggi
-              merupakan fondasi utama dalam menciptakan produk kuliner
-              berkualitas.
+              Tahun 2006 menjadi titik awal perjalanan panjang PA KING. Berawal dari keyakinan sederhana namun kuat bahwa hidangan bebek peking khas Asia layak dihadirkan dengan standar kualitas yang tidak pernah dikompromikan PA KING memulai langkahnya sebagai pemasok bebek peking untuk kebutuhan B2B catering. Di masa-masa awal inilah fondasi PA KING benar-benar diuji dan dibentuk.
             </p>
 
             <p className="text-gray-700 leading-relaxed">
-              Seiring berkembangnya kebutuhan pasar, PA KING tidak hanya
-              melayani pelanggan individu tetapi juga menjadi mitra bagi
-              berbagai bisnis kuliner, restoran, serta katering melalui
-              sistem pasokan produk yang konsisten dan terpercaya.
+              Melayani berbagai mitra restoran dan penyelenggara katering, PA KING belajar bahwa kepercayaan tidak dibangun dalam semalam. Ia lahir dari konsistensi rasa yang terjaga di setiap batch produksi, dari kedisiplinan menjaga standar kebersihan dan keamanan pangan, serta dari komitmen untuk selalu hadir tepat waktu bagi setiap mitra yang mengandalkan kami.
+            </p>
+
+            <br/>
+
+            <p className="text-gray-700 leading-relaxed">
+              Namun dunia kuliner terus bergerak, dan PA KING memilih bergerak bersamanya. Dari yang semula murni bermain di jalur B2B, PA KING bertransformasi menjadi bisnis dagang yang lebih luas dan merambah ke penjualan online membuka pintu bagi pelanggan individu untuk turut merasakan cita rasa yang selama ini hanya dinikmati di balik layar industri katering. Hari ini, hampir dua dekade sejak didirikan, PA KING berdiri sebagai bukti bahwa kualitas konsisten mampu mengubah usaha pemasok kecil menjadi nama yang dipercaya.
             </p>
           </div>
 
+        {/* OUR commitment */}
           <div className="bg-gray-100 rounded-xl p-8">
             <h3 className="text-xl font-semibold mb-4">Our Commitment</h3>
             <p className="text-gray-700 leading-relaxed">
-              Kami berkomitmen menjaga kualitas produk melalui proses
-              produksi yang terstandarisasi, pemilihan bahan baku premium,
-              serta pengawasan kualitas yang ketat untuk memastikan setiap
-              produk memenuhi standar terbaik.
+              Kami berkomitmen menjaga kualitas produk melalui proses produksi yang terstandarisasi, pemilihan bahan baku premium, serta pengawasan kualitas yang ketat untuk memastikan setiap produk memenuhi standar terbaik.
+            </p>
+            <br/>
+            <p className="text-gray-700 leading-relaxed">
+              Komitmen ini tidak berubah sejak PA KING pertama kali melayani mitra B2B supplier, bahkan kini saat menjangkau lebih banyak pelanggan melalui jalur dagang dan online, standar yang sama tetap kami pegang teguh di setiap tahap produksi.
             </p>
           </div>
         </section>
@@ -84,24 +85,26 @@ const AboutPage = () => {
         <section className="grid md:grid-cols-2 gap-16">
           <div>
             <h2 className="text-3xl font-semibold mb-4">Vision</h2>
-            <p className="text-gray-700 leading-relaxed">
-              Menjadi brand olahan bebek terpercaya yang dikenal luas karena
-              kualitas produk, konsistensi rasa, dan standar produksi yang
-              tinggi.
-            </p>
+            <ul className="text-gray-700 leading-relaxed space-y-2">
+              <li>• Menjadi brand olahan bebek peking terpercaya dan dikenal luas</li>
+              <li>• Dipercaya luas oleh pelanggan yang mengutamakan kualitas dan konsistensi rasa</li>
+              <li>• Konsisten menjaga kualitas produk dan standar produksi tinggi</li>
+              <li>• Terus berkembang dari generasi ke generasi sejak 2006</li>
+            </ul>
           </div>
-
+          
+         {/* MISSION */}
           <div>
-            <h2 className="text-3xl font-semibold mb-4">Mission</h2>
+<h2 className="text-3xl font-semibold mb-4">Mission</h2>
             <ul className="space-y-3 text-gray-700">
               <li>• Menyediakan produk olahan bebek dengan kualitas terbaik</li>
               <li>• Menjaga standar kebersihan dan keamanan pangan</li>
-              <li>• Memberikan layanan profesional kepada pelanggan</li>
-              <li>• Mengembangkan jaringan distribusi kuliner</li>
+              <li>• Memberikan layanan terbaik langsung kepada pelanggan</li>
+              <li>• Memperluas jangkauan lewat distribusi dan penjualan online</li>
             </ul>
           </div>
         </section>
-
+                
         {/* WHY CHOOSE US */}
         <section>
           <h2 className="text-3xl font-semibold text-center mb-12">
@@ -110,6 +113,9 @@ const AboutPage = () => {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="border rounded-xl p-6">
+              <div className="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-4">
+                <ShieldCheck className="w-7 h-7 text-amber-600" />
+              </div>
               <h3 className="text-xl font-semibold mb-2">Premium Quality</h3>
               <p className="text-gray-700">
                 Kami menggunakan bahan baku bebek pilihan yang diproses dengan
@@ -118,6 +124,9 @@ const AboutPage = () => {
             </div>
 
             <div className="border rounded-xl p-6">
+              <div className="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-4">
+                <Flame className="w-7 h-7 text-amber-600" />
+              </div>
               <h3 className="text-xl font-semibold mb-2">Consistent Taste</h3>
               <p className="text-gray-700">
                 Proses produksi yang terstandarisasi memastikan rasa yang
@@ -126,10 +135,13 @@ const AboutPage = () => {
             </div>
 
             <div className="border rounded-xl p-6">
-              <h3 className="text-xl font-semibold mb-2">Trusted Partner</h3>
+              <div className="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-4">
+                <Award className="w-7 h-7 text-amber-600" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Proven Since 2006</h3>
               <p className="text-gray-700">
-                Kami menjadi mitra terpercaya bagi berbagai bisnis kuliner
-                dan katering.
+                Hampir dua dekade pengalaman mengolah bebek peking, kini
+                dapat dinikmati langsung oleh Anda.
               </p>
             </div>
           </div>
