@@ -38,11 +38,7 @@ const AboutPage = () => {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">About PA KING</h1>
           <p className="text-lg leading-relaxed text-gray-300">
-            PA KING adalah brand kuliner yang berfokus pada pengolahan hidangan
-            bebek berkualitas premium. Kami menghadirkan produk dengan
-            standar produksi yang tinggi, proses pengolahan yang konsisten,
-            serta kualitas rasa yang dapat diandalkan untuk pelanggan
-            individu maupun kebutuhan bisnis kuliner.
+            PA KING adalah brand kuliner yang berfokus pada pengolahan hidangan bebek peking berkualitas premium. Berawal sejak tahun 2006, kami membangun fondasi kepercayaan sebagai pemasok terpercaya bagi industri katering  sebelum akhirnya bertransformasi untuk hadir lebih dekat dengan Anda. Kini, kami menghadirkan produk dengan standar produksi yang tinggi, proses pengolahan yang konsisten, serta kualitas rasa yang dapat diandalkan, langsung untuk pelanggan yang mengutamakan cita rasa autentik dan premium.
           </p>
         </div>
       </section>
