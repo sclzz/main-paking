@@ -244,7 +244,7 @@ Catatan Tambahan: ${bulkForm.notes || "-"}`;
             className="bg-[#131313] rounded-2xl px-8 py-16 md:px-20 md:py-20"
           >
             <h2 className="text-3xl md:text-4xl font-semibold text-center mb-4 text-white">
-              Bulk Order & B2B Partnership
+              Pemesanan Bulk Order & B2B Partnership
             </h2>
             <p className="text-gray-300 text-center max-w-xl mx-auto mb-12 text-lg">
               Butuh pemesanan dalam jumlah besar untuk restoran, katering, atau
