@@ -73,7 +73,7 @@ const Navbar = () => {
     });
   };
 
-  const forceSolidNavbar = location.pathname === "/bulk-order";
+  const forceSolidNavbar = location.pathname === "/bulkorder";
 
   return (
     <nav
