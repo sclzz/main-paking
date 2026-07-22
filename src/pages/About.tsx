@@ -265,7 +265,7 @@ Catatan Tambahan: ${bulkForm.notes || "-"}`;
                     value={bulkForm.company}
                     onChange={handleBulkChange}
                     className="w-full bg-white rounded-lg pl-14 pr-5 py-4 text-base focus:outline-none focus:ring-2 focus:ring-[#C09B40] transition-shadow"
-                    placeholder="Nama Perusahaan / Restoran"
+                    placeholder="Nama Perusahaan / Restoran (opsional)"
                   />
                 </div>
 
