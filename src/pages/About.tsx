@@ -15,17 +15,22 @@ const AboutPage = () => {
     {
       question: "Apakah PA KING melayani bisnis atau restoran?",
       answer:
-        "Ya. Selain melayani pelanggan individu, PA KING juga menjadi mitra pasokan untuk restoran, bisnis kuliner, dan katering."
+        "Ya. Selain melayani pelanggan individu, PA KING juga menjadi mitra pasokan untuk restoran, acara tertentu, dan k."
+    },
+    {
+      question: "Apakah PA KING HALAL?",
+      answer:
+        "Ya kami halal."
+    },
+    {
+      question: "Apakah produk PA KING tersedia untuk pemesanan besar?",
+      answer:
+        "Tersedia. Kami melayani kebutuhan distribusi dan pemesanan dalam jumlah besar untuk kebutuhan acara tertentu."
     },
     {
       question: "Bagaimana standar kualitas produk PA KING?",
       answer:
         "Kami menggunakan bahan baku pilihan, proses produksi terstandarisasi, serta pengawasan kualitas ketat untuk memastikan konsistensi rasa dan kualitas."
-    },
-    {
-      question: "Apakah produk PA KING tersedia untuk pemesanan besar?",
-      answer:
-        "Tersedia. Kami melayani kebutuhan distribusi dan pemesanan dalam jumlah besar untuk kebutuhan bisnis kuliner."
     }
   ];
 
