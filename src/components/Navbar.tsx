@@ -73,10 +73,12 @@ const Navbar = () => {
     });
   };
 
+  const forceSolidNavbar = location.pathname === "/bulk-order";
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
+        isScrolled || forceSolidNavbar
           ? "bg-background/95 backdrop-blur-md shadow-sm border-b border-border/50"
           : "bg-charcoal/80 backdrop-blur-sm"
       }`}
@@ -99,7 +101,7 @@ const Navbar = () => {
                 href={link.href}
                 onClick={(e) => handleSmoothScroll(e, link.href)}
                 className={`text-sm font-medium transition-colors ${
-                  isScrolled ? "text-muted-foreground hover:text-primary" : "text-cream/80 hover:text-gold"
+                  isScrolled || forceSolidNavbar ? "text-muted-foreground hover:text-primary" : "text-cream/80 hover:text-gold"
                 }`}
               >
                 {link.label}
@@ -112,10 +114,10 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
             className={`md:hidden p-2 rounded-md transition-colors active:scale-95 ${
               isOpen
-                ? isScrolled
+                ? isScrolled || forceSolidNavbar
                   ? "text-[#B23A2F] hover:text-[#B23A2F]/80"
                   : "text-cream hover:text-gold"
-                : isScrolled
+                : isScrolled || forceSolidNavbar
                 ? "text-foreground hover:text-primary"
                 : "text-cream hover:text-gold"
             }`}
