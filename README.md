@@ -5,7 +5,7 @@ Website ini menampilkan menu unggulan, lokasi toko (Our Store), mitra kolaborasi
 
 ---
 
-## ✨ Features
+## Features
 
 - Modern landing page design
 - Responsive (desktop & mobile friendly)
@@ -17,7 +17,7 @@ Website ini menampilkan menu unggulan, lokasi toko (Our Store), mitra kolaborasi
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **React + TypeScript (TSX)**
 - **Vite**
